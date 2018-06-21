@@ -197,7 +197,7 @@ The style attribute needs variable type object.
 
 ### You can set classes dynamically, too ! 
 
-/*Note: Again we use classes from global CSS file `style/styles.css`*/
+*Note: Again we use classes from global CSS file `style/styles.css`*
 
 `user_list.js`:
 
@@ -442,7 +442,7 @@ header of `index.html` instead, do the following:
 
 If you don't want (or need) to do styling within the React eco-system, and are used to Sass, you might be right here.
 
-/*Notes:*/
+*Notes:*
 
 - Of course you can still mix styling strategies. Whatever is necessary to fulfill the requirements of the app you need to develop.
 - With Sass you still need to connect your React component to the Sass's CSS output (`className="user-list"`).
@@ -527,12 +527,22 @@ React:
 React & Styling:
 - Maximilian Schwarzmüller: Udemy Courses: "React 16 - The Complete Guide": https://www.udemy.com/react-the-complete-guide-incl-redux/
 
+Radium:
+- https://github.com/FormidableLabs/radium
+
 Styled Components:
 - https://www.styled-components.com/
 - https://github.com/styled-components/styled-components
 
+CSS Modules:
+- https://github.com/css-modules/css-modules
+- https://github.com/webpack-contrib/extract-text-webpack-plugin
+- Style Loader: https://webpack.js.org/loaders/style-loader/ 
+- Style Loader: https://github.com/webpack-contrib/style-loader):
+
 Sass:
 - Brad Hussey Udemy Course: https://www.udemy.com/learn-sass
+- Sass Home: https://sass-lang.com/
 
 
 ### Credits to the authors of above links ! Thank you very much !
