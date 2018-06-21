@@ -520,7 +520,7 @@ See Testing section in chapter 1 above for more details.
 
 ### Have a look !
 
-React: 
+React-Redux App: 
 - Stephen Grider: https://github.com/StephenGrider/AdvancedReduxCode
 - Stephen Grider: Udemy Course "Advanced React and Redux": https://www.udemy.com/react-redux-tutorial 
 
