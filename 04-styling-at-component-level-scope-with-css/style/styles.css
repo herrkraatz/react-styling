@@ -1,0 +1,7 @@
+/*Global styles*/
+
+/*We keep card style globally as it is within the same context (class) as global bootstrap*/
+.card{
+    width: 30%;
+    min-width: 300px;
+}

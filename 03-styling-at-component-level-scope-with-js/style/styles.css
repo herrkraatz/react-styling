@@ -1,0 +1,18 @@
+/*Global styles*/
+
+.user-list{
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.green-bg{
+    background-color: green;
+}
+
+.card{
+    width: 30%;
+    min-width: 300px;
+}

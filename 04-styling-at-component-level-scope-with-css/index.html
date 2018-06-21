@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Global styles -->
+        <link rel="stylesheet" href="/style/bootstrap.min.css">
+        <link rel="stylesheet" href="/style/styles.css">
+
+        <!-- Local (scoped) styles -->
+        <!-- Development:
+        We also produce a CSS file for development to keep /style/ directory
+        (will be the same as in Production later on);
+        if you don't want this for development,
+        comment out line below and use webpack.config.dev_with_injected_style_tag_in_index.html instead -->
+        <link rel="stylesheet" href="/style/styles-scoped.css">
+    </head>
+    <body>
+        <div class="container"></div>
+    </body>
+    <script src="/bundle.js"></script>
+</html>
