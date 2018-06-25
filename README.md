@@ -23,7 +23,7 @@ All 6 strategies are implemented independent from each other and you can simply 
 
 - The following tutorial shall show you fundamentally, what strategies are possible. 
 - The right strategy (or combination of!) depends on your needs.
-- In my opinion it's mostly about the question how interactive/sexy vs. static/formal/seriously your application should appear to the user. The more interactivity you need, the more you will move from CSS to JavaScript to code your dynamic styling (as a function of state).
+- In my opinion it's mostly about the question how interactive/sexy vs. static/formal/seriously your application should appear to the user. The more interactivity you need, the more you need to move from plain CSS to JavaScript to enable your dynamic styling (as a function of state).
     
 
 *Notes II:*
@@ -536,7 +536,7 @@ See Testing section in chapter 1 above for more details.
 React & Styling:
 - Michele Bertoli's Great Comparison Table: https://github.com/MicheleBertoli/css-in-js
 - Maximilian Schwarzmüller: Udemy Courses: "React 16 - The Complete Guide": https://www.udemy.com/react-the-complete-guide-incl-redux/
-- Christopher "vjeux" Chedeau's CSS/React Presentation: CSS in JS: https://speakerdeck.com/vjeux/react-css-in-js
+- Christopher "vjeux" Chedeau's CSS/React Presentation "CSS in JS": https://speakerdeck.com/vjeux/react-css-in-js
 
 React-Redux App: 
 - Stephen Grider: https://github.com/StephenGrider/AdvancedReduxCode
