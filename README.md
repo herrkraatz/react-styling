@@ -19,11 +19,17 @@ All 6 strategies are implemented independent from each other and you can simply 
 
 ## <a id="chapter1"></a>1. Getting Started
 
-*Notes:*
+*Notes I:*
 
-- No Mac needed. 
+- The following tutorial shall show you fundamentally, what strategies are possible. 
+- The right strategy (or combination of!) depends on your needs.
+- In my opinion it's mostly about the question how interactive/sexy vs. static/formal/seriously your application should appear to the user. The more interactivity you need, the more you will move from CSS to JavaScript to code your dynamic styling (as a function of state).
+    
 
-- In case of the last example, the global Sass strategy, you eventually need to instally Ruby on Rails (http://guides.rubyonrails.org/getting_started.html) before installing Ruby Sass. `node-sass` was no option as it had several vulnerabilities (not severe, but still).
+*Notes II:*
+
+- No Mac needed.
+- In case of the last example, the global Sass strategy, you eventually need to install Ruby on Rails (http://guides.rubyonrails.org/getting_started.html) before installing Ruby Sass. `node-sass` was no option as it had several vulnerabilities (not severe, but still).
 
 
 ### My Setup
@@ -351,11 +357,18 @@ Three steps:
 
 Not too difficult !
 
+It also works with Media Queries and Pseudo Selectors.
+
+Please also check out new libraries Emotion and Glamorous. They are enhanced Styled Components:
+
+- https://github.com/emotion-js/emotion
+- https://glamorous.rocks/getting-started/
+
 ## <a id="chapter2e"></a>v. Styling at Component Level Scope with CSS
 
-The "problem" with the previous strategy: We need JavaScript to define CSS styles. The style properties must be in camelCase.
+A component file can have its own CSS file where its CSS classes/ids are NOT bleeding out to other components.
 
-If this is not your style :), let's dive into CSS Modules (https://github.com/css-modules/css-modules) ...
+These CSS files are called CSS Modules (https://github.com/css-modules/css-modules). Let's dive into them ...
 
 ### First install CSS Loader (see https://webpack.js.org/loaders/css-loader/)
 
@@ -520,12 +533,14 @@ See Testing section in chapter 1 above for more details.
 
 ### Have a look !
 
+React & Styling:
+- Michele Bertoli's Great Comparison Table: https://github.com/MicheleBertoli/css-in-js
+- Maximilian Schwarzmüller: Udemy Courses: "React 16 - The Complete Guide": https://www.udemy.com/react-the-complete-guide-incl-redux/
+- Christopher "vjeux" Chedeau's CSS/React Presentation: CSS in JS: https://speakerdeck.com/vjeux/react-css-in-js
+
 React-Redux App: 
 - Stephen Grider: https://github.com/StephenGrider/AdvancedReduxCode
 - Stephen Grider: Udemy Course "Advanced React and Redux": https://www.udemy.com/react-redux-tutorial 
-
-React & Styling:
-- Maximilian Schwarzmüller: Udemy Courses: "React 16 - The Complete Guide": https://www.udemy.com/react-the-complete-guide-incl-redux/
 
 Radium:
 - https://github.com/FormidableLabs/radium
@@ -534,15 +549,27 @@ Styled Components:
 - https://www.styled-components.com/
 - https://github.com/styled-components/styled-components
 
+Emotion / Glamorous:
+- https://github.com/emotion-js/emotion
+- https://glamorous.rocks/getting-started/
+
 CSS Modules:
 - https://github.com/css-modules/css-modules
 - https://github.com/webpack-contrib/extract-text-webpack-plugin
-- Style Loader: https://webpack.js.org/loaders/style-loader/ 
-- Style Loader: https://github.com/webpack-contrib/style-loader):
+- Style Loader: 
+    - https://webpack.js.org/loaders/style-loader/ 
+    - https://github.com/webpack-contrib/style-loader
+    - How Head Section of Document gets updated with style tag: https://medium.com/a-beginners-guide-for-webpack-2/webpack-loaders-css-and-sass-2cc0079b5b3a
 
 Sass:
 - Brad Hussey Udemy Course: https://www.udemy.com/learn-sass
 - Sass Home: https://sass-lang.com/
+- With CRA and without Ejection: https://hackernoon.com/using-sass-with-create-react-app-without-ejecting-b5f4f827ed9e
+- Webpack's Sass Loader as alternative to Ruby on Rails: https://medium.com/a-beginners-guide-for-webpack-2/using-sass-9f52e447c5ae
+
+Other:
+- Media Queries as React Components: https://github.com/contra/react-responsive
+- 4 Ways of Styling React: https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822
 
 
 ### Credits to the authors of above links ! Thank you very much !
