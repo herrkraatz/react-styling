@@ -5,7 +5,7 @@ This tutorial shall show fundamentally, what styling patterns are possible, and 
 Thoughts:
 
 - The right styling strategy (or combination of!) always depends on your own individual needs.
-- In my opinion it's mostly about the question how interactive/sexy vs. static/formal/seriously your application should appear to the user. The more interactivity you need, the more you need to move from plain CSS to JavaScript to enable your dynamic styling (as a function of state).
+- In my opinion it's mostly about the question how interactive/sexy vs. static/formal/seriously your application should appear to the user. The more interactivity you need, the more you need to move from plain CSS to JavaScript to do your Dynamic Styling (as a function of state).
 
 All 6 strategies are implemented independent from each other and you can simply try out the 6 examples.
 
