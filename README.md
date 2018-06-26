@@ -360,22 +360,20 @@ It also works with Media Queries and Pseudo Selectors:
 
     ```
     const Title = styled.h1`
-          font-size: 1.5em;
-          text-align: center;
-          color: palevioletred;
-          
-          @media (max-width: 700px) {
-            background: yellow;
-          }
-          
-          // Ampersands (&) get replaced by our generated, unique classname for that styled component
-          &:hover {
-            background: blue;
-          }   
+      font-size: 1.5em;
+      text-align: center;
+      color: palevioletred;
+    
+      @media (max-width: 700px) {
+        background: yellow;
+      }
+      
+      // Ampersands (&) get replaced by our generated, unique classname for that styled component
+      &:hover {
+        background: blue;
+      }
     `;
     ```
-       
-       
 Please also check out new libraries Emotion and Glamorous. They are enhanced Styled Components:
 
 - https://github.com/emotion-js/emotion
