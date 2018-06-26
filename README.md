@@ -1,6 +1,11 @@
 # React Styling
 
-This tutorial shall help making a decision easier about which styling strategy to take (or which combination).
+This tutorial shall show fundamentally, what styling patterns are possible, and help making a decision easier about which styling pattern (strategy) to take.
+
+Thoughts:
+
+- The right styling strategy (or combination of!) always depends on your own individual needs.
+- In my opinion it's mostly about the question how interactive/sexy vs. static/formal/seriously your application should appear to the user. The more interactivity you need, the more you need to move from plain CSS to JavaScript to enable your dynamic styling (as a function of state).
 
 All 6 strategies are implemented independent from each other and you can simply try out the 6 examples.
 
@@ -19,14 +24,8 @@ All 6 strategies are implemented independent from each other and you can simply 
 
 ## <a id="chapter1"></a>1. Getting Started
 
-*Notes I:*
 
-- The following tutorial shall show you fundamentally, what strategies are possible. 
-- The right strategy (or combination of!) depends on your needs.
-- In my opinion it's mostly about the question how interactive/sexy vs. static/formal/seriously your application should appear to the user. The more interactivity you need, the more you need to move from plain CSS to JavaScript to enable your dynamic styling (as a function of state).
-    
-
-*Notes II:*
+*Notes:*
 
 - No Mac needed.
 - In case of the last example, the global Sass strategy, you eventually need to install Ruby on Rails (http://guides.rubyonrails.org/getting_started.html) before installing Ruby Sass. `node-sass` was no option as it had several vulnerabilities (not severe, but still).
