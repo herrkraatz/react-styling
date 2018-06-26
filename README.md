@@ -550,12 +550,12 @@ See Testing section in chapter 1 above for more details.
 
 React & Styling:
 - Michele Bertoli's Great Comparison Table: https://github.com/MicheleBertoli/css-in-js
-- Maximilian Schwarzmüller: Udemy Course "React 16 - The Complete Guide": https://www.udemy.com/react-the-complete-guide-incl-redux/
+- Maximilian Schwarzmüller, Udemy Course "React 16 - The Complete Guide": https://www.udemy.com/react-the-complete-guide-incl-redux/
 - Christopher "vjeux" Chedeau's CSS/React Presentation "CSS in JS": https://speakerdeck.com/vjeux/react-css-in-js
 
 React-Redux App: 
-- Stephen Grider: https://github.com/StephenGrider/AdvancedReduxCode
-- Stephen Grider: Udemy Course "Advanced React and Redux": https://www.udemy.com/react-redux-tutorial 
+- Stephen Grider, Repo: https://github.com/StephenGrider/AdvancedReduxCode
+- Stephen Grider, Udemy Course "Advanced React and Redux": https://www.udemy.com/react-redux-tutorial 
 
 Radium:
 - https://github.com/FormidableLabs/radium
@@ -577,7 +577,7 @@ CSS Modules:
     - How Head Section of Document gets updated with style tag: https://medium.com/a-beginners-guide-for-webpack-2/webpack-loaders-css-and-sass-2cc0079b5b3a
 
 Sass:
-- Brad Hussey Udemy Course: https://www.udemy.com/learn-sass
+- Brad Hussey, Udemy Course "The Sass Course! Learn Sass for Real-World Websites": https://www.udemy.com/learn-sass
 - Sass Home: https://sass-lang.com/
 - With CRA and without Ejection: https://hackernoon.com/using-sass-with-create-react-app-without-ejecting-b5f4f827ed9e
 - Webpack's Sass Loader as alternative to Ruby on Rails: https://medium.com/a-beginners-guide-for-webpack-2/using-sass-9f52e447c5ae
