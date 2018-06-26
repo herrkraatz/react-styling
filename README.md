@@ -550,7 +550,7 @@ See Testing section in chapter 1 above for more details.
 
 React & Styling:
 - Michele Bertoli's Great Comparison Table: https://github.com/MicheleBertoli/css-in-js
-- Maximilian Schwarzmüller: Udemy Course: "React 16 - The Complete Guide": https://www.udemy.com/react-the-complete-guide-incl-redux/
+- Maximilian Schwarzmüller: Udemy Course "React 16 - The Complete Guide": https://www.udemy.com/react-the-complete-guide-incl-redux/
 - Christopher "vjeux" Chedeau's CSS/React Presentation "CSS in JS": https://speakerdeck.com/vjeux/react-css-in-js
 
 React-Redux App: 
