@@ -371,11 +371,11 @@ It also works with Media Queries and Pseudo Selectors:
           // Ampersands (&) get replaced by our generated, unique classname for that styled component
           &:hover {
             background: blue;
-          }
-          
+          }   
     `;
     ```
-    
+       
+       
 Please also check out new libraries Emotion and Glamorous. They are enhanced Styled Components:
 
 - https://github.com/emotion-js/emotion
