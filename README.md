@@ -1,6 +1,6 @@
 # React Styling
 
-This tutorial shall show fundamentally, what styling patterns are possible, and help making a decision easier about which styling pattern (strategy) to take.
+This tutorial shall demonstrate, which styling patterns are possible - to make a decision easier about which styling pattern (strategy) to take.
 
 Thoughts:
 
