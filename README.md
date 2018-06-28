@@ -7,6 +7,7 @@ Thoughts:
 - The right styling strategy (or combination of!) always depends on your own individual needs.
 - Dynamic Styling (as a function of state or screen size) is great for Responsive and Interactive Design. 
 - Cons / Pros of classic CSS/Sass Styling compared to JS Styling
+
     - Cons:
         1. New animation libraries like
         
