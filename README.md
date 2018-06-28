@@ -22,6 +22,7 @@ Thoughts:
     - Pros:
     
         1. You don't have to switch to camelCase notation of style properties and you of course don't have styling within your JSX files, but separate in a CSS file.
+        
         2. Pure CSS experts can still work within a React Team without knowing much about JavaScript and how React really works.
        
 All 6 strategies are implemented independent from each other and you can simply try out the 6 examples.
