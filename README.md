@@ -6,8 +6,22 @@ Thoughts:
 
 - The right styling strategy (or combination of!) always depends on your own individual needs.
 - Dynamic Styling (as a function of state or screen size) is great for Responsive and Interactive Design. 
-- Some new effects/libs could probably be easier integrated with JS Styling inside your components, but all can be accomplished with classic CSS/Sass Styling as well.
-
+- Cons / Pros of classic CSS/Sass Styling compared to JS Styling
+    - Cons:
+        1. New animation libraries like
+        
+            - ReactTransitionGroup (https://github.com/reactjs/react-transition-group)
+            - React Motion (https://github.com/chenglou/react-motion)
+            - React Move (https://react-move.js.org/#/)
+            - React Router Transition (https://github.com/maisano/react-router-transition) 
+            
+            will probably be faster integrated with JS Styling than integrating these animations with classic CSS/Sass Styling.
+        2. The DOM will not be as clean as when using JS Styling because React does NOT KNOW about elements hidden or shown through CSS classes. Elements would be entirely removed through React instead of hiding them.
+        3. Animation libraries as an additional JS layer can easier orchestrate your CSS animations (like transition timings, event timings). 
+    - Pros:
+        1. You don't have to switch to camelCase notation of style properties and you of course don't have styling within your JSX files, but separate in a CSS file.
+        2. Pure CSS experts can still work within a React Team without knowing much about JavaScript and how React really works.
+       
 All 6 strategies are implemented independent from each other and you can simply try out the 6 examples.
 
 ## Table of Contents
