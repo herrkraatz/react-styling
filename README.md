@@ -1,6 +1,6 @@
 # React Styling
 
-This tutorial shall demonstrate, which styling patterns are possible - to make a decision easier about which styling pattern (strategy) to take.
+This tutorial shall demonstrate which styling patterns are possible - to make a decision easier about which styling pattern (strategy) to take.
 
 Thoughts:
 
@@ -9,7 +9,7 @@ Thoughts:
 - Cons / Pros of classic CSS/Sass Styling compared to JS Styling
 
     - Cons:
-        1. New animation libraries like
+        1. New animation modules like
         
             - ReactTransitionGroup (https://github.com/reactjs/react-transition-group)
             - React Motion (https://github.com/chenglou/react-motion)
@@ -18,8 +18,9 @@ Thoughts:
             
             will probably be faster integrated with JS Styling than integrating these animations with classic CSS/Sass Styling.
         2. The DOM will not be as clean as when using JS Styling because React does NOT KNOW about elements hidden or shown through CSS classes. Elements would be entirely removed through React instead of hiding them.
-        3. Animation libraries as an additional JS layer can easier orchestrate your CSS animations (like transition timings, event timings). 
+        3. Animation modules as an additional JS layer can easier orchestrate your CSS animations (like transition timings, event timings). 
     - Pros:
+    
         1. You don't have to switch to camelCase notation of style properties and you of course don't have styling within your JSX files, but separate in a CSS file.
         2. Pure CSS experts can still work within a React Team without knowing much about JavaScript and how React really works.
        
@@ -390,10 +391,18 @@ It also works with Media Queries and Pseudo Selectors:
       }
     `;
     ```
-Please also check out new libraries Emotion and Glamorous. They are enhanced Styled Components:
+
+Please also check out style modules Emotion and Glamorous. They give more options to Styled Components:
 
 - https://github.com/emotion-js/emotion
 - https://glamorous.rocks/getting-started/
+
+And look at these animation modules. They can make your App really cool:
+
+- ReactTransitionGroup: https://github.com/reactjs/react-transition-group
+- React Motion: https://github.com/chenglou/react-motion
+- React Move: https://react-move.js.org/#/
+- React Router Transition: https://github.com/maisano/react-router-transition
 
 ## <a id="chapter2e"></a>v. Styling at Component Level Scope with CSS
 
@@ -580,9 +589,15 @@ Styled Components:
 - https://www.styled-components.com/
 - https://github.com/styled-components/styled-components
 
-Emotion / Glamorous:
-- https://github.com/emotion-js/emotion
-- https://glamorous.rocks/getting-started/
+Style Modules:
+- Emotion: https://github.com/emotion-js/emotion
+- Glamorous: https://glamorous.rocks/getting-started/
+
+Animation Modules:
+- ReactTransitionGroup: https://github.com/reactjs/react-transition-group
+- React Motion: https://github.com/chenglou/react-motion
+- React Move: https://react-move.js.org/#/
+- React Router Transition: https://github.com/maisano/react-router-transition
 
 CSS Modules:
 - https://github.com/css-modules/css-modules
